@@ -13,21 +13,6 @@ A modern, responsive portfolio web application built with Vue.js featuring a das
 - **Modern UI**: Clean, professional design with smooth animations
 - **Vue Router**: Seamless navigation between pages
 
-## 📋 Project Structure
-
-\`\`\`
-src/
-├── views/
-│   ├── LoginView.vue         # Authentication page
-│   ├── DashboardLayout.vue   # Main dashboard layout with sidebar
-│   ├── ProfileView.vue       # Personal profile page
-│   ├── ShowcaseView.vue      # Portfolio projects gallery
-│   ├── ContactView.vue       # Contact form page
-│   └── CreativeView.vue      # Interactive timeline and skills
-├── App.vue                   # Root component
-├── main.js                   # App entry point with router
-└── style.css                 # Global styles and theme
-
 ## 🛠️ Technologies Used
 
 - **Vue.js 3**: Progressive JavaScript framework
@@ -67,7 +52,7 @@ src/
 ## 🔐 Login Credentials
 
 - **Username**: `admin`
-- **Password**: `portfolio123`
+- **Password**: `admin123`
 
 ## 🎨 Features Breakdown
 
@@ -113,18 +98,6 @@ src/
 - **Performance**: Optimized with Vite for fast loading and hot module replacement
 - **Maintainable Code**: Well-structured components with clear separation of concerns
 
-## 🔄 Routing Structure
-
-\`\`\`
-/                          → Redirects to /login
-/login                     → Login page
-/portfolio                 → Dashboard layout (requires authentication)
-  ├── /portfolio/profile   → Profile page
-  ├── /portfolio/showcase  → Portfolio showcase
-  ├── /portfolio/contact   → Contact form
-  └── /portfolio/creative  → Interactive timeline
-\`\`\`
-
 ## 🎨 Customization
 
 ### Color Theme
@@ -161,11 +134,3 @@ Simply run `npm run build` and deploy the `dist` folder.
 ## 📝 License
 
 This project is open source and available for educational purposes.
-
-## 👨‍💻 Author
-
-Built with ❤️ using Vue.js
-
----
-
-**Note**: This is a portfolio template. Replace placeholder content with your actual information before deployment.
